@@ -21,8 +21,6 @@ http.createServer((req, res) => {
         case 'divide':
             res.end("Division is: " + (Number(q[1]) / Number(q[2])))
             break
-        default:
-            res.end("Division is: " + (Number(q[1]) / Number(q[2])))
     }
 
 }).listen(8000)
